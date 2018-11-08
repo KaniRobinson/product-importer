@@ -1,0 +1,19 @@
+{
+    "name": "kanirobinson/product-importer",
+    "description": "Converts a CSV of Products to an Object",
+    "minimum-stability": "stable",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Kani Robinson",
+        "email": "me@kanirobinson.co.uk"
+      }
+    ],
+    "autoload":
+    {
+      "psr-4": {
+        "ProductImporter\\" : "src/"
+      }
+    }
+}
